@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(20, 20, 40);
+}
+
+div.dh1{
+	background-color:  rgb(120, 130, 140);
+	border-radius: 7px
+}
+
+header ul{
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: rgb(235, 245, 255);
+	border-radius: 7px
+}
+
+header li{
+	float: left;
+}
+header li a{
+	display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 10px 20px;
+    background-color: rgb(180, 200, 220);
+    text-shadow: 0px -2px 2px black;
+    box-shadow: 5px 5px 3px rgb(80, 100, 120);
+    border: solid 2px rgb(120, 130, 140);
+    border-radius: 7px;
+}
+header li a:hover{
+    /*text-decoration: none;*/
+    color: rgb(180, 200, 200);
+    background-color: rgb(80, 100, 120);
+    text-shadow: 0px -2px 2px grey;
+    border: dotted 2px rgb(120, 130, 140);
+    box-shadow: 0px 5px 3px rgb(80, 100, 120);
+}
+h2{
+    text-align: center;
+}
+section{
+/*    background-color: darkseagreen;
+*/    
+}
+.div_geo{
+    background-color:  rgb(200, 210, 220);
+    border: solid 15px rgb(220, 230, 240);
+    width: 30%;
+    float: left;
+    padding: 20px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px rgb(120, 140, 150);
+
+}
+
+.div_geo p{
+	text-align: justify;
+    text-indent: 40px;
+}
+
+.div_new{
+    background-color:  rgb(200, 210, 220);
+    border: solid 15px rgb(220, 230, 240);
+    width: 30%;
+    float: left;
+    padding: 20px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px rgb(120, 140, 150);
+}
+
+
+.dd5{
+    text-align: center;
+}
+
+.div_new p{
+	text-align: justify;
+    text-indent: 40px;
+}
+
+.div_corners{
+    background-color:  rgb(200, 210, 220);
+    border: solid 15px rgb(220, 230, 240);
+    width: 15%;
+    float: left;
+    padding: 20px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px rgb(120, 140, 150);
+}
+
+.div_corners li{
+    font-size: 24px;
+    margin: 20px;
+}
+
+
+div.footer{
+    background-color: black;
+    border-radius: 7px;
+    color: gold;
+    width: 100%;
+    overflow: hidden;
+    padding-right: 100px;
+    padding: 15px;
+    text-align: right;
+}
